@@ -22,3 +22,4 @@ assert "Example Domain" in driver.title
 driver.quit()
 
 print("Test Passed")
+print("Test Completed")
