@@ -13,11 +13,11 @@ driver = webdriver.Chrome(
     options=options
 )
 
-driver.get("https://www.cricbuzz.com")
+driver.get("https://example.com")
 
 print("Page Title:", driver.title)
 
-assert "Cricbuzz" in driver.title
+assert "Example Domain" in driver.title
 
 driver.quit()
 
